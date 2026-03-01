@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js
+.next
+out
+
+# Environment
+.env
+.env.local
+
+# Misc
+.DS_Store
+
+# IDE
+.idea
+.vscode
+
+# Media uploads
+media/*
+!.gitkeep
