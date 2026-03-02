@@ -12,11 +12,9 @@ type Args = {
   }>
 }
 
-export const Page = ({ params, searchParams }: Args) => {
+export default function Page({ params, searchParams }: Args) {
   return RootPage({ config, params, searchParams })
 }
 
 export const generateMetadata = ({ params, searchParams }: Args): Promise<Metadata> =>
   generatePageMetadata({ config, params, searchParams })
-
-export default Page
